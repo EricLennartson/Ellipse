@@ -1,0 +1,16 @@
+bus 0 2;
+code Elip;
+type instrument;
+midiin true;
+compatibility 1.0.4;
+description Info.txt;
+
+param -name X Diameter -min 0 -max 100 -default 100 -auto true
+param -name Y Diameter -min 0 -max 100 -default 100 -auto true
+param -name X Position -min -100 -max 100 -default 0 -auto true
+param -name Y Position -min -100 -max 100 -default 0 -auto true
+param -name Output -label db -min -100 -max 0 -default -24 -auto true
+param -name Attack -label ms -min 0 -max 10000 -default 100 -auto true
+param -name Decay -label ms -min 0 -max 10000 -default 100 -auto true
+param -name Sustain -label ms -min 0 -max 100 -default 70 -auto true
+param -name Resonance -label ms -min 0 -max 10000 -default 100 -auto true
